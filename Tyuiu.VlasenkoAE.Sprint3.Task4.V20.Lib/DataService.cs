@@ -11,12 +11,12 @@ namespace Tyuiu.VlasenkoAE.Sprint3.Task4.V20.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
-                    res = res * ((x / (Math.Cos(x) - x)) + 2.5);
-                } 
+                    res = res * (x / (Math.Cos(x) - x) + 2.5);
+                }
                     
             }
             return Math.Round(res, 3);
