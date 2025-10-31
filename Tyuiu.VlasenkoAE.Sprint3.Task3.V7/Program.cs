@@ -6,7 +6,7 @@ Console.Title = "Спринт #3 | Выполнил: Власенко А. Е. | 
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #3                                                               *");
-Console.WriteLine("* Тема: Оператор цикла for                                                *");
+Console.WriteLine("* Тема: Оператор цикла foreach                                            *");
 Console.WriteLine("* Задание #3                                                              *");
 Console.WriteLine("* Вариант #7                                                              *");
 Console.WriteLine("* Выполнил: Власенко Артём Евгеньевич | ИСТНб-25-1                        *");
