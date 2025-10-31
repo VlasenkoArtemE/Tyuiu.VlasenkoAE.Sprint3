@@ -26,7 +26,6 @@ int stopValue = 5;
 Console.WriteLine("Старт шага = " + startValue);
 Console.WriteLine("Конец шага = " + stopValue);
 
-DataService ds = new DataService();
 int len = ds.GetMassFunction(startValue, stopValue).Length;
 
 double[] valueArray;
@@ -41,11 +40,10 @@ Console.WriteLine("+----------+----------+");
 Console.WriteLine("|     X    |   f(x)   |");
 Console.WriteLine("+----------+----------+");
 
-int currentX = startValue;
 for (int i = 0; i <= len - 1; i++)
 {
-    Console.WriteLine("|{0,5:d}     | {1,8:f2} |", currentX, valueArray[i]);
-    currentX++;
+    Console.WriteLine("|{0,5:d}     | {1,8:f2} |", startValue, valueArray[i]);
+    startValue++;
 }
 Console.WriteLine("+----------+----------+");
 Console.ReadKey();
